@@ -5,6 +5,9 @@
  */
 
 import React, { Component } from 'react';
+
+import icons from './Resources/Image/Tab/tabBarImageData';
+
 import {
   Platform,
   StyleSheet,
@@ -21,24 +24,76 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component<{}> {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedTab:'home'
+    };
+  }
   render() {
     return (
-        <TabBarIOS>
-          <TabBarIOS.Item title="Home" icon={require("./Resources/Image/Tab/tab_home_green.png")}>
+        <TabBarIOS tintColor="red">
+          <TabBarIOS.Item title="Home"
+                          icon={{uri:icons.home_green, scale:3}}
+                          selectedIcon={{uri:icons.home_green, scale:3}}
+                          selected={this.state.selectedTab === 'home'}
+                          onPress={()=>{
+                            this.setState({
+                                selectedTab: 'home'
+                            });
+                          }}>
+
+              <View >
+                  <Text>发现</Text>
+              </View>
 
           </TabBarIOS.Item>
 
-            <TabBarIOS.Item title="Categories" icon={require("./Resources/Image/Tab/tab_categories_gray.png")}>
+            <TabBarIOS.Item title="Categories"
+                            icon={{uri:icons.categories_gray, scale:3}}
+                            selectedIcon={{uri:icons.categories_green, scale:3}}
+                            selected={this.state.selectedTab === 'categories'}
+                            onPress={()=>{
+                                this.setState({
+                                    selectedTab: 'categories'
+                                });
+                            }}>
+
+                <View >
+                    <Text>分类</Text>
+                </View>
 
             </TabBarIOS.Item>
 
 
-            <TabBarIOS.Item title="GroupBuy" icon={require("./Resources/Image/Tab/tab_groupbuy_gray.png")}>
+            <TabBarIOS.Item title="GroupBuy"
+                            icon={{uri:icons.groupbuy_gray, scale:3}}
+                            selectedIcon={{uri:icons.groupbuy_green, scale:3}}
+                            selected={this.state.selectedTab === 'groupbuy'}
+                            onPress={()=>{
+                                this.setState({
+                                    selectedTab: 'groupbuy'
+                                });
+                            }}>
+                <View >
+                    <Text>分类</Text>
+                </View>
 
             </TabBarIOS.Item>
 
 
-          <TabBarIOS.Item title="Rewards" icon={require("./Resources/Image/Tab/tab_rewards_gray.png")}>
+          <TabBarIOS.Item title="Rewards"
+                          icon={{uri:icons.rewards_gray, scale:3}}
+                          selectedIcon={{uri:icons.rewards_green, scale:3}}
+                          selected={this.state.selectedTab === 'rewards'}
+                          onPress={()=>{
+                              this.setState({
+                                  selectedTab: 'rewards'
+                              });
+                          }}>
+              <View >
+                  <Text>分类</Text>
+              </View>
 
           </TabBarIOS.Item>
         </TabBarIOS>
