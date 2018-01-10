@@ -8,6 +8,10 @@ import React, { Component } from 'react';
 
 import icons from './Resources/Image/Tab/tabBarImageData';
 
+ import home from './home';
+
+//var Home = require('./home');
+
 import {
   Platform,
   StyleSheet,
@@ -32,7 +36,7 @@ export default class App extends Component<{}> {
   }
   render() {
     return (
-        <TabBarIOS tintColor="red">
+        <TabBarIOS tintColor='rgba(140, 180, 49, 1)'>
           <TabBarIOS.Item title="Home"
                           icon={{uri:icons.home_green, scale:3}}
                           selectedIcon={{uri:icons.home_green, scale:3}}
@@ -42,6 +46,8 @@ export default class App extends Component<{}> {
                                 selectedTab: 'home'
                             });
                           }}>
+
+              {/*<home/>*/}
 
               <View >
                   <Text>发现</Text>
