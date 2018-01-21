@@ -1,30 +1,39 @@
 'use strict';
 
-import React from 'react-native';
+//import React from 'react-native';
+
+import React, { Component } from 'react';
 
 import {
-    WebView
+    WebView,
+    View,
+    StyleSheet,
+    Platform,
 } from 'react-native';
 
 
-var DEFAULT_URL = 'https://www.baidu.com/';
+var DEFAULT_URL = 'http://www.baidu.com/';
 
 import Dimensions from 'Dimensions';
 
-const  Width = Dimensions.gen('window').width;
-const  Height = Dimensions.gen('window').height;
+const  Width = Dimensions.get('window').width;
+const  Height = Dimensions.get('window').height;
 
-class Home extends  React.Component{
+export default class Home extends  React.Component{
 
     render() {
         return (
-            <view style={styles.webStyle}>
+            <View style={StyleSheet.webStyle}>
                 <WebView
                     style={{height:Height, width:Width}}
                     source={{uri:DEFAULT_URL}}
+                    startInLoadingState={true}
+                    domStorageEnabled={true}//开启dom存贮
+                    javaScriptEnabled={true}//开启js
                 />
 
-            </view>
+            </View>
+
 
         );
     }
@@ -33,9 +42,9 @@ class Home extends  React.Component{
 
 const style = StyleSheet.create({
         webStyle:{
-            flex:1
+            flex:1,
         },
 }
 );
 
-export {Home as default};
+

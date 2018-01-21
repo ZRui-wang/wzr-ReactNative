@@ -8,16 +8,16 @@ import React, { Component } from 'react';
 
 import icons from './Resources/Image/Tab/tabBarImageData';
 
- import home from './home';
-
-//var Home = require('./home');
+ import Home from './home';
 
 import {
   Platform,
   StyleSheet,
   Text,
   View,
-  TabBarIOS
+  TabBarIOS,
+    WebView,
+    Dimensions
 } from 'react-native';
 
 const instructions = Platform.select({
@@ -26,6 +26,11 @@ const instructions = Platform.select({
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
+
+
+const  Width = Dimensions.get('window').width;
+const  Height = Dimensions.get('window').height;
+var DEFAULT_URL = 'https://www.baidu.com/';
 
 export default class App extends Component<{}> {
   constructor(props) {
@@ -47,10 +52,10 @@ export default class App extends Component<{}> {
                             });
                           }}>
 
-              {/*<home/>*/}
 
-              <View >
-                  <Text>发现</Text>
+
+              <View style={styles.container}>
+                  <Home/>
               </View>
 
           </TabBarIOS.Item>
@@ -66,7 +71,7 @@ export default class App extends Component<{}> {
                             }}>
 
                 <View >
-                    <Text>分类</Text>
+                    <Text style={styles.categoryStyle}>分类</Text>
                 </View>
 
             </TabBarIOS.Item>
@@ -124,4 +129,7 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+    categoryStyle:{
+      top:50,
+    },
 });
