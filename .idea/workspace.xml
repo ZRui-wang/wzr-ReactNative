@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cf35c52-7f4b-4480-9ee2-d1da442545a8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/MyRNApp/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/.buckconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tabBarImageData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_categories_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_categories_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_groupbuy_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_groupbuy_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_home_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_home_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_rewards_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/Resources/Image/Tab/tab_rewards_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/__tests__/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/java/com/myrnapp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/java/com/myrnapp/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/keystores/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/keystores/debug.keystore.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp.xcodeproj/xcshareddata/xcschemes/MyRNApp-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp.xcodeproj/xcshareddata/xcschemes/MyRNApp.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNApp/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNAppTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/ios/MyRNAppTests/MyRNAppTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRNApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/.buckconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/__tests__/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/java/com/myprogect/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/java/com/myprogect/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/keystores/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/keystores/debug.keystore.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgect/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgectTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/ios/myProgectTests/myProgectTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProgect/yarn.lock" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="703" />
+    <option name="y" value="114" />
+    <option name="width" value="1720" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wzr-ReactNative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wzr-ReactNative" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cf35c52-7f4b-4480-9ee2-d1da442545a8" name="Default" comment="" />
+      <created>1527474683300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527474683300</updated>
+      <workItem from="1527474692471" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="703" y="114" width="1720" height="1105" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24985269" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
