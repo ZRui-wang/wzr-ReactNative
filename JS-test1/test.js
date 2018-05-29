@@ -90,41 +90,92 @@ if (str.startsWith("stay") && str.endsWith("foolish")){
  * 5、合并数组[2,4,6,8,4]、[1,3,5,8,6,7,9,5];然后对合并后的数组去重（不低于两种方式实现），并按递增排序输出；
  * ****/
 
-
-
+// let ary1 = [2,4,6,8,4];
+// let ary2 = [1,3,5,8,6,7,9,5];
+// // ary2.forEach(item => {
+// // 	ary1.push(item);
+// // })
+//
+// let ary3 = ary1.concat(...ary2);
+//
+// ary3.sort((value1, value2) => {
+// 	return value1 > value2 ? 1 : -1;
+// })
+// console.log(ary3);
 
 
 /****
  * 6、延迟 3s 输出 "I was delayed by 3 seconds to execute" 字符串；
  * ****/
 
+// function action(n) {
+// 	console.log("进入程序");
+// 	setTimeout(()=> {
+// 		console.log("I was delayed by 3 seconds to execute");
+// 	},n);
+// }
+//
+// action(3000);
+
 
 /****
  * 7、间隔2s输出从1开始的计数，每次加1，并在第5次输出后，取消该定时器。
  * ****/
 
+function f() {
+	console.log("开始");
+	let n = 0;
+	let id = setInterval(() => {
+		n++;
+		console.log(`${n}`);
+		if (n === 5){
+			clearInterval(id);
+			console.log("关闭定时器");
+		}
+	},2000);
+}
+
+// f();
 
 
 /****
  * 8、如下两个对象，如果需要执行userB.fn时输出 Paul ,请做出修改
  * 要求：1、严格模式；2、绑定的方式实现
  * ****/
-/*
+
 let userA = {
 	name:'Paul',
 };
 
 let userB = {
-	name:'Cook',
-	fn:function () {
-		(function f() {
-			console.log(this.name);
-		})();
-	}
-};
-userB.fn();
-*/
+    name: 'Cook',
 
+    fn: function () {
+    	var f = () => {
+    		console.log(this.name);
+		}
+		return f();
+    }
+
+}
+userB.fn();
+
+// let userA = {
+//     name:'Paul',
+// };
+//
+// let userB = {
+//     name:'Cook',
+//     fn:function () {
+//
+//         (function f() {
+// //             console.log(userB.name);
+// //         })();
+// //     }
+// };
+//
+// let userB = userA.bind(userA);
+// userB.fn();
 
 
 
